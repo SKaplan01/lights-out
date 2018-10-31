@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="boardContainer"
+>
+  <div>
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="0-0"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="0-1"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="0-2"
+    />
+  </div>
+  <div>
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="1-0"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="1-1"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="1-2"
+    />
+  </div>
+  <div>
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="2-0"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="2-1"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="2-2"
+    />
+  </div>
+</div>
+`;
