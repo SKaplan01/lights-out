@@ -23,3 +23,13 @@ it('handles click', function() {
   expect(wrapper.state().board[0][1]).toBe(true);
   expect(wrapper.state().board[1][0]).toBe(true);
 });
+
+it('checks for win and renders correct message', function() {
+  let wrapper = mount(<Board nrows={1} ncols={1} chanceLightStartsOn={1} />);
+
+  let elem = wrapper.find('.Cell').first();
+  elem.simulate('click');
+  console.log('wrapper state', wrapper.state());
+  expect(wrapper.state().hasWon).toBe(true);
+  expect(wrapper.html()).toContain('You won');
+});

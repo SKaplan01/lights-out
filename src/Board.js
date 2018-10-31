@@ -36,7 +36,7 @@ class Board extends Component {
     this.state = { hasWon: false, board: this.createBoard() };
   }
 
-  static defaultProps = { nrows: 3, ncols: 3, chanceLightStartsOn: 0.5 };
+  static defaultProps = { nrows: 5, ncols: 5, chanceLightStartsOn: 0.5 };
 
   /** create a board nrows high/ncols wide, each cell randomly lit or unlit */
 
@@ -103,7 +103,7 @@ class Board extends Component {
           />
         );
       }
-      rows.push(<div>{cellsArray}</div>);
+      rows.push(<div key={y}>{cellsArray}</div>);
     }
     return (
       // if the game is won, just show a winning msg & render nothing else

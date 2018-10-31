@@ -4,7 +4,9 @@ exports[`matches snapshot 1`] = `
 <div
   className="boardContainer"
 >
-  <div>
+  <div
+    key="0"
+  >
     <Cell
       flipCellsAround={[Function]}
       isLit={false}
@@ -20,8 +22,20 @@ exports[`matches snapshot 1`] = `
       isLit={false}
       key="0-2"
     />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="0-3"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="0-4"
+    />
   </div>
-  <div>
+  <div
+    key="1"
+  >
     <Cell
       flipCellsAround={[Function]}
       isLit={false}
@@ -37,8 +51,20 @@ exports[`matches snapshot 1`] = `
       isLit={false}
       key="1-2"
     />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="1-3"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="1-4"
+    />
   </div>
-  <div>
+  <div
+    key="2"
+  >
     <Cell
       flipCellsAround={[Function]}
       isLit={false}
@@ -53,6 +79,74 @@ exports[`matches snapshot 1`] = `
       flipCellsAround={[Function]}
       isLit={false}
       key="2-2"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="2-3"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="2-4"
+    />
+  </div>
+  <div
+    key="3"
+  >
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="3-0"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="3-1"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="3-2"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="3-3"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="3-4"
+    />
+  </div>
+  <div
+    key="4"
+  >
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="4-0"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="4-1"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="4-2"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="4-3"
+    />
+    <Cell
+      flipCellsAround={[Function]}
+      isLit={false}
+      key="4-4"
     />
   </div>
 </div>
