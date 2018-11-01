@@ -5,3 +5,7 @@
 .boardContainer {
   margin-left: 50px;
 }
+
+.rowContainer {
+  display: flex;
+}

@@ -8,13 +8,13 @@ it('renders without crashing', function() {
 });
 
 it('matches snapshot', function() {
-  let wrapper = shallow(<Board chanceLightStartsOn={0} />);
+  let wrapper = shallow(<Board difficulty={0} />);
   let serialized = toJson(wrapper);
   expect(serialized).toMatchSnapshot();
 });
 
 it('handles click', function() {
-  let wrapper = mount(<Board nrows={3} ncols={3} chanceLightStartsOn={0} />);
+  let wrapper = mount(<Board nrows={3} ncols={3} difficulty={0} />);
 
   let elem = wrapper.find('.Cell').first();
   elem.simulate('click');
@@ -25,7 +25,7 @@ it('handles click', function() {
 });
 
 it('checks for win and renders correct message', function() {
-  let wrapper = mount(<Board nrows={1} ncols={1} chanceLightStartsOn={1} />);
+  let wrapper = mount(<Board nrows={1} ncols={1} difficulty={1} />);
 
   let elem = wrapper.find('.Cell').first();
   elem.simulate('click');
